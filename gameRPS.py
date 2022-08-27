@@ -2,7 +2,7 @@ import random
 options = [ "rock", "paper", "scissors"]
 def is_win(player, opennent):
 
- if (player=="scisoors" and opennent=='paper') or (player=="paper" and opennent=='rock') or (player=="rock" and opennent=='scissors'):
+ if (player=="scissors" and opennent=='paper') or (player=="paper" and opennent=='rock') or (player=="rock" and opennent=='scissors'):
   return print("you won ")
  elif player == opennent:
     print("tie")
